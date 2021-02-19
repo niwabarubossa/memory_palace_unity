@@ -15,7 +15,7 @@ public class Axis : MonoBehaviour
     [SerializeField] GameObject unityChan;
 
     //Cameraが回転するスピード
-    [SerializeField] float rotate_speed = 3;
+    [SerializeField] float rotate_speed = 5;
     //Axisの位置を指定する変数
     [SerializeField] Vector3 axisPos;
     //三人称の際のCameraの位置
@@ -42,7 +42,7 @@ public class Axis : MonoBehaviour
     //Vector3.SmoothDampで現在のスピードを入れる
     private Vector3 velocity = Vector3.zero;
     //Vector3.SmoothDampで目的地に到達するための時間
-    [SerializeField] float smoothTime = 1.5f;
+    [SerializeField] float smoothTime = 5.0f;
 
     //public float time;
 

@@ -1,23 +1,4 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class PlayerController : MonoBehaviour
-//{
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-
-//    }
-
-//    // Update is called once per frame
-//    void Update()
-//    {
-
-//    }
-//}
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,7 +8,7 @@ public class PlayerController : MonoBehaviour
     //Rigidbodyを入れる
     Rigidbody rb;
     //移動スピード
-    public float speed = 2f;
+    public float speed = 10000f;
     //ジャンプ力
     public float thrust = 150;
 
